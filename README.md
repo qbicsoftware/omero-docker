@@ -3,7 +3,7 @@ OMERO server setup using docker-compose.
 
 ## Description
 
-This repository contains a solution to setup an OMERO server using docker-compose. It allows the control/definition of the Bio-formats library for the server. This solution is based on this post: [`How to control Bio-formats version of OMERO server using docker-compose`](https://forum.image.sc/t/how-to-control-bio-formats-version-of-omero-server-using-docker-compose/82935). The docker-compose `yml` files are based on [`OME/docker-example-omero`](https://github.com/ome/docker-example-omero). It also contains a copy of [`sbesson/bio-formats-omero`](https://github.com/sbesson/bio-formats-omero/) under `./custom-bio-formats/bio-formats-omero` (accessed on 14.07.2023).
+This repository contains a solution to setup an OMERO server using docker-compose. It allows the control/definition of the Bio-formats library for the server. This solution is based on this post: [`How to control Bio-formats version of OMERO server using docker-compose`](https://forum.image.sc/t/how-to-control-bio-formats-version-of-omero-server-using-docker-compose/82935). The docker-compose `yml` files are based on [`OME/docker-example-omero`](https://github.com/ome/docker-example-omero). It also contains a copy of [`sbesson/bio-formats-omero`](https://github.com/sbesson/bio-formats-omero/) under `./custom-bio-formats/bio-formats-omero` (accessed on `14.07.2023`).
 
 ## Resources
 
@@ -16,4 +16,4 @@ This repository contains a solution to setup an OMERO server using docker-compos
 - [omero.properties](https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties)
 - [Bio-formats OMERO](https://github.com/sbesson/bio-formats-omero/)
 - [OMERO docker build example](https://github.com/ome/docker-example-omero-websockets/blob/master/docker-compose.yml)
-- [HAProxy config example](https://github.com/IDR/deployment/blob/master/ansible/templates/haproxy.cfg.j2)
+- [IDR HAProxy config example](https://github.com/IDR/deployment/blob/master/ansible/templates/haproxy.cfg.j2)
